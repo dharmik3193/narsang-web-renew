@@ -49,43 +49,43 @@ export default function Home() {
   ]
   const Range_Product = [
     {
-      img: require('../img/asset 37.jpeg'),
-      link: "/PiperSudanGrassSeeds",
-      name: "Piper Sudan Grass Seed"
+      img: require('../img/peanuts.jpg'),
+      link: "/peanuts",
+      name: "Peanuts"
     },
     {
-      img: require('../img/asset 38.jpeg'),
-      link: "/AlfalfaGrassSeeds",
-      name: "Alfalfa Grass Seeds"
+      img: require('../img/green_gram.jpeg'),
+      link: "/green-gram",
+      name: "Green Gram"
     },
     {
-      img: require('../img/39.jpeg'),
-      link: "/sorghum",
-      name: "Sorghum"
+      img: require('../img/black_gram.jpg'),
+      link: "/black-gram",
+      name: "Black Gram"
     },
     {
-      img: require('../img/asset 40.jpeg'),
+      img: require('../img/wheat.jpg'),
       link: "/wheat",
       name: "Wheat"
     }, {
-      img: require('../img/41.jpeg'),
-      link: "/sesameseeds",
-      name: "Seasem Seeds"
+      img: require('../img/wheat_flour.jpg'),
+      link: "/wheat-flour",
+      name: "Wheat Flour"
     },
     {
-      img: require('../img/42.jpeg'),
-      link: "/yellowmaize",
-      name: "Yellow Maize"
+      img: require('../img/chickpea.jpg'),
+      link: "/chikpea",
+      name: "Chikpea"
     },
     {
-      img: require('../img/asset 43.jpeg'),
-      link: "/greenmillet",
-      name: "Green Millet"
+      img: require('../img/chikpea_split.jpg'),
+      link: "/chikpea-splits",
+      name: "Chikpea Splits"
     },
     {
-      img: require('../img/asset 44.jpeg'),
-      link: "/barley",
-      name: "Barley"
+      img: require('../img/soybean.jpg'),
+      link: "/soybean",
+      name: "Soy Bean"
     }
   ]
   const Featured = [

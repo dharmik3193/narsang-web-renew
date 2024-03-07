@@ -198,20 +198,21 @@ function App() {
 {/* Single product */}
 
 
-      <Route path="/basmatirice"  exact={true} element={<Basmatirice title='Basmati Rice' titleline='/inadianrice' maintitle='Indian Rice' img={require("./imgs/basmati.png")}  width="100%" widths='700px'/>} />
-      <Route path="/nonbasmatirice"  exact={true} element={<Basmatirice title='Non Basmati Rice' titleline='/inadianrice' maintitle='Indian Rice' img={require("./imgs/nonbasmati.jpeg")}  width="100%" widths='700px'/>} />
-      
-      <Route path="/greenmillet" element={<Basmatirice title='Green Millet' titleline='/grains' maintitle='Grains' img={require("./imgs/asset 42.jpeg")} widths='400px'/>} />
-      <Route path="/yellowmaize" element={<Basmatirice title='Yellow Maize' titleline='/grains' maintitle='Grains' img={require("./imgs/asset 43.jpeg")} widths='400px'/>} />
-      <Route path="/barley" element={<Basmatirice title='Barley' titleline='/grains'  maintitle='Grains' img={require("./imgs/asset 44.jpeg")} widths='400px'/>} />
-      <Route path="/sorghum" element={<Basmatirice title='Sorghum' titleline='/grains'  maintitle='Grains' img={require("./imgs/asset 45.jpeg")} widths='400px'/>} />
-      <Route path="/wheat" element={<Basmatirice title='Wheat' titleline='/grains'  maintitle='Grains' img={require("./imgs/asset 46.jpeg")} widths='400px'/>} />
-      <Route path="/sesameseeds" element={<Basmatirice title='Sesame Seeds' titleline='/grains'  maintitle='Grains' img={require("./imgs/asset 47.jpeg")} widths='500px'/>} />
+      <Route path="/peanuts"  exact={true} element={<Basmatirice title='Peanuts' titleline='/inadianrice' maintitle='Peanuts' img={require("./img/peanuts.jpg")}  width="100%" widths='700px'/>} />
+      <Route path="/green-gram"  exact={true} element={<Basmatirice title='Green Gram' titleline='/inadianrice' maintitle='Green Gram' img={require("./img/green_gram.jpeg")}  width="100%" widths='700px'/>} />
+      <Route path="/black-gram" element={<Basmatirice title='Black Gram' titleline='/grains' maintitle='Black Gram' img={require("./img/black_gram.jpg")} widths='400px'/>} />
+      <Route path="/wheat" element={<Basmatirice title='Wheat' titleline='/grains'  maintitle='Grains' img={require("./img/wheat.jpg")} widths='400px'/>} />
+      <Route path="/wheat-flour" element={<Basmatirice title='Wheat Flour' titleline='/grains' maintitle='Wheat Flour' img={require("./img/wheat_flour.jpg")} widths='400px'/>} />
+      <Route path="/chikpea" element={<Basmatirice title='Chikpea' titleline='/grains'  maintitle='Chikpea' img={require("./img/chickpea.jpg")} widths='400px'/>} />
+      <Route path="/chikpea-splits" element={<Basmatirice title='Chikpea Splits' titleline='/grains'  maintitle='Chikpea Splits' img={require("./img/chikpea_split.jpg")} widths='400px'/>} />
+      <Route path="/soybean" element={<Basmatirice title='Soy Bean' titleline='/grains'  maintitle='Soy Bean' img={require("./img/soybean.jpg")} widths='500px'/>} />
+      <Route path="/pegion-pea" element={<Basmatirice title='Pegion Pea' titleline='/fodderseeds'  maintitle='Pegion Pea' img={require("./img/pegion_pea.jpg")} widths='400px'/>} />
+      <Route path="/gram-flour" element={<Basmatirice title='Gram Flour' titleline='/fodderseeds'  maintitle='Gram Flour' img={require("./img/gram_flour.webp")} widths='300px'/>} />
+      <Route path="/pearl-millet" element={<Basmatirice title='Pearl Millet' titleline='/freshfruits' maintitle='Pearl Millet' img={require("./img/pearl_millet.jpg")} widths='300px'/>} />
 
-      <Route path="/AlfalfaGrassSeeds" element={<Basmatirice title='Alfalfa Grass Seeds' titleline='/fodderseeds'  maintitle='Fooder Seeds' img={require("./imgs/asset 48.jpeg")} widths='400px'/>} />
-      <Route path="/PiperSudanGrassSeeds" element={<Basmatirice title='Piper Sudan Grass Seeds' titleline='/fodderseeds'  maintitle='Fooder Seeds' img={require("./imgs/asset 49.jpeg")} widths='300px'/>} />
 
-      <Route path="/FreshPromegranate" element={<Basmatirice title='Fresh Promegranate' titleline='/freshfruits' maintitle='Fresh Fruits' img={require("./imgs/asset 50.jpeg")} widths='300px'/>} />
+
+
       
       <Route path="/FreshGinger" element={<Basmatirice title='Fresh Ginger' titleline='/freshvegetables'  maintitle='Fresh Vegetables' img={require("./imgs/asset 51.jpeg")} widths='500px'/>} />
       <Route path="/FreshRedOnion" element={<Basmatirice title='Fresh Red Onion' titleline='/freshvegetables'  maintitle='Fresh Vegetables' img={require("./imgs/asset 52.jpeg")} widths='400px'/>} />

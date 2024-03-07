@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <>
-    
+
       <Affix>
         <header className='full-pad'>
           <div className='header'>
@@ -36,54 +36,25 @@ export default function Navbar() {
                     <ul>
                       <li className='nav-item'><NavLink to="/" >Home</NavLink></li>
                       <li><NavLink to="/about" >About Us</NavLink></li>
-                      <li><Link to='/products' >Products <span><FiChevronDown className=''></FiChevronDown></span></Link>
+                      <li><Link to="/products" >Product <span><FiChevronDown></FiChevronDown></span></Link>
                         <ul>
-                          <li><Link to="/inadianrice">Indian Rice<BiChevronRight></BiChevronRight></Link>
-                            <ul>
-                              <li><Link to="/basmatirice" >Basmati Rice</Link></li>
-                              <li><Link to="/nonbasmatirice" >Non Basmati Rice</Link></li>
-                            </ul>
+                          <li><Link to="/peanuts">Peanuts</Link></li>
+                          <li><Link to='/green-gram' >Green Gram</Link></li>
+                          <li><Link to="/black-gram" >Black Gram</Link></li>
+                          <li><Link to="/wheat" >Wheat</Link></li>
+                          <li><Link to="/wheat-flour" >Wheat Flour</Link>
+                            {/* <ul>
+                        <li><Link to="/FreshGinger">Fresh Ginger</Link></li>
+                        <li><Link to="/FreshRedOnion">Fresh Red Onion</Link></li>
+                      </ul> */}
                           </li>
-                          <li><Link to='/grains'>Grains<BiChevronRight></BiChevronRight> </Link>
-                            <ul>
-                              <li><Link to="/greenmillet">Green Millet </Link></li>
-                              <li><Link to="/yellowmaize">Yellow Maize </Link></li>
-                              <li><Link to="/barly">Barly</Link></li>
-                              <li><Link to="/sorgum">Sorgum </Link></li>
-                              <li><Link to="/wheat">Wheat </Link></li>
-                              <li><Link to="/sesameseeds">Sesame Seeds </Link></li>
-                            </ul>
-                          </li>
-                          <li><Link to='/fodderseeds'>Fodder Seeds<BiChevronRight></BiChevronRight></Link>
-                            <ul>
-                              <li><Link to="/alfalfagrassseeds">Alfalfa Grass Seeds </Link></li>
-                              <li><Link to="/pipersudangrassseeds">Piper Sudan Grass Seeds </Link></li>
-                            </ul>
-                          </li>
-                          <li><Link to="/freshfruits" >Fresh Fruits<BiChevronRight></BiChevronRight></Link>
-                            <ul>
-                              <li><Link to="/freshpomegrants">Pomegrants </Link></li>
-                            </ul>
-                          </li>
-                          <li><Link to="/freshvegetables" >Fresh Vegetables<BiChevronRight></BiChevronRight></Link>
-                            <ul>
-                              <li><Link to="/FreshGinger">Fresh Ginger</Link></li>
-                              <li><Link to="/FreshRedOnion">Fresh Red Onion</Link></li>
-                            </ul>
-                          </li>
-                          <li><Link to='/indianspices'>Indian Spices<BiChevronRight></BiChevronRight></Link>
-                            <ul>
-                              <li><Link to="/AjwainSpeeds">Ajwain Seeds </Link></li>
-                              <li><Link to="/AselioSeeds">Aselio Seeds </Link></li>
-                              <li><Link to="/CorianderSeeds">Coriander Seeds </Link></li>
-                              <li><Link to="/CuminSeeds">Cumin Seeds </Link></li>
-                              <li><Link to="/FennelSpeeds">Fennel seeds </Link></li>
-                              <li><Link to="/BayLeaves">Bay Leaves </Link></li>
-                              <li><Link to="/SennaLeaves">Senna Leaves  </Link></li>
-                              <li><Link to="/RedChilliPowder">Red Chilli Powder </Link></li>
-                              <li><Link to="/TurmericPowder">Termeric Powder </Link></li>
-                            </ul>
-                          </li>
+                          <li><Link to="/chikpea" >Chikpea</Link></li>
+                          <li><Link to="/chikpea-splits" >Chikpea Split</Link></li>
+                          <li><Link to="/soybean" >Soy Bean</Link></li>
+                          <li><Link to="/pegion-pea" >Pegion Pea</Link></li>
+                          <li><Link to="/gram-flour" >Gram Flour</Link></li>
+                          <li><Link to="/pearl-millet" >Pearl Millet</Link></li>
+
                         </ul>
                       </li>
 
@@ -105,55 +76,23 @@ export default function Navbar() {
                 <li><NavLink to="/about" >about Us</NavLink></li>
                 <li><Link to="/products" >Product <span><FiChevronDown></FiChevronDown></span></Link>
                   <ul>
-                    <li><Link to="/inadianrice">Indian Rice<BiChevronRight></BiChevronRight></Link>
-                      <ul>
-                        <li><Link to="/basmatirice" >Basmati Rice</Link></li>
-                        <li><Link to="/nonbasmatirice" >Non Basmati Rice</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link to='/grains' >Grains<BiChevronRight></BiChevronRight> </Link>
-                      <ul>
-                        <li><Link to="/greenmillet">Green Millet </Link></li>
-                        <li><Link to="/yellowmaize">Yellow Maize </Link></li>
-                        <li><Link to="/barly">Barly</Link></li>
-                        <li><Link to="/sorgum">Sorgum </Link></li>
-                        <li><Link to="/wheat">Wheat </Link></li>
-                        <li className='/sesameseeds'><Link>Sesame Seeds</Link></li>
-                      </ul>
-                    </li>
-                    <li><Link to="/fodderseeds" >Fodder Seeds<BiChevronRight></BiChevronRight></Link>
-                      <ul>
-                        <li><Link to="/alfalfagrassseeds">Alfalfa Grass Seeds </Link></li>
-                        <li><Link to="/pipersudangrassseeds">Piper Sudan Grass Seeds </Link></li>
-                      </ul>
-                    </li>
-                    <li><Link to="/freshfruits" >Fresh Fruits<BiChevronRight></BiChevronRight></Link>
-                      <ul>
-                        <li><Link to="/FreshPromegranate">Pomegrants </Link></li>
-                      </ul>
-                    </li>
-                    <li><Link to="/freshvegetables" >Fresh Vegetables<BiChevronRight></BiChevronRight></Link>
-                      <ul>
+                    <li><Link to="/peanuts">Peanuts</Link></li>
+                    <li><Link to='/green-gram' >Green Gram</Link></li>
+                    <li><Link to="/black-gram" >Black Gram</Link></li>
+                    <li><Link to="/wheat" >Wheat</Link></li>
+                    <li><Link to="/wheat-flour" >Wheat Flour</Link>
+                      {/* <ul>
                         <li><Link to="/FreshGinger">Fresh Ginger</Link></li>
                         <li><Link to="/FreshRedOnion">Fresh Red Onion</Link></li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li><Link to="/indianspices" >Indian Spices<BiChevronRight></BiChevronRight></Link>
-                      <ul>
-                        <li><Link to="/AjwainSpeeds">Ajwain Seeds </Link></li>
-                        <li><Link to="/AselioSpeeds">Aselio Seeds </Link></li>
-                        <li><Link to="/CorianderSeeds">Coriander Seeds </Link></li>
-                        <li><Link to="/CuminSeeds">Cumin Seeds </Link></li>
-                        <li><Link to="/FennelSpeeds">Fennel seeds </Link></li>
-                        <li><Link to="/FenugreekSeeds">Fenugreek Seeds </Link></li>
-                        <li><Link to="/BayLeaves">Bay Leaves </Link></li>
-                        <li><Link to="/SennaLeaves">Senna Leaves </Link></li>
-                        <li><Link to="/RedChilliPowder">Red Chilli Powder </Link></li>
-                        <li><Link to="/TurmericPowder">Turmeric Powder</Link></li>
-                        {/* <li className='sub-menu-btn '><Link>View All</Link></li> */}
-                      </ul>
-                    </li>
-                    
+                    <li><Link to="/chikpea" >Chikpea</Link></li>
+                    <li><Link to="/chikpea-splits" >Chikpea Split</Link></li>
+                    <li><Link to="/soybean" >Soy Bean</Link></li>
+                    <li><Link to="/pegion-pea" >Pegion Pea</Link></li>
+                    <li><Link to="/gram-flour" >Gram Flour</Link></li>
+                    <li><Link to="/pearl-millet" >Pearl Millet</Link></li>
+
                   </ul>
                 </li>
 

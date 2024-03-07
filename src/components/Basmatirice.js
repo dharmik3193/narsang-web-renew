@@ -48,10 +48,10 @@ console.clear()
 
   const slider = [
     { 
-    link : '/basmatirice',
-     title: 'Basmati Rice',
+    link : '/peanuts',
+     title: 'Peanuts',
      width: '100%',
-     img:[require("../imgs/asset 2.png")]},
+     img:[require("../img/peanuts.jpg")]},
     {
     link : '/nonbasmatirice',
      title: 'Non Basmati Rice',
