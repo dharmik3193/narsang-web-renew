@@ -1,9 +1,7 @@
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import {useEffect, useState } from "react";
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
-import css2 from "../css/style2.css";
-import meadia2 from "../css/meadiaquery2.css";
 import { useLocation } from "react-router";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";

@@ -124,7 +124,7 @@ export default function MIniFooter() {
                                     <img src={require('../img/asset 22.png')} alt="" />
                                 </Link> */}
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@ export default function MIniFooter() {
                     <div className="col1">
                         <div className='t-center'>
                             Narsang Overseas <br />
-                            Developed & Managed By Weblink.in Pvt.Ltd
+                            <a href='https://triflysolutions.com/' target='_blank' className='footer-credit'>Developed & Managed By Trifly Solutions Pvt.Ltd</a>
                         </div>
                     </div>
 

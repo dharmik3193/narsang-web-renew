@@ -18,6 +18,13 @@
     box-sizing: border-box;
 }
 
+.footer-credit{
+    color: #c6cbcb;
+}
+.footer-credit:hover{
+    color: #ffffff;
+}
+
 .font-white {
     color: var(--color-white);
 }

@@ -18,126 +18,79 @@ export default function AboutUs() {
 
   const products = [
     {
-      link: "/indianrice",
-      name: "Indian Rice",
+      link: "/about",
+      name: "Legumes",
       sub_products: [
         {
-          sub_link: "/basmati",
-          sub_name: "Basmati Rice"
+          sub_link: "/peanuts",
+          sub_name: "Peanuts"
         },
         {
-          sub_link: "/nonbasmati",
-          sub_name: "Non Basmati Rice"
+          sub_link: "/soybean",
+          sub_name: "Soy Bean"
         }
       ]
     },
     {
-      link: "/grains",
+      link: "/about",
       name: "Grains",
       sub_products: [
         {
-          sub_link: "/greenmellet",
-          sub_name: "Green Mellet"
+          sub_link: "/wheat",
+          sub_name: "Wheat"
         },
         {
-          sub_link: "/yellomaize",
-          sub_name: "Yellow Maize"
-        },
-        {
-          sub_link: "/barley",
-          sub_name: "Barley"
-        },
-        {
-          sub_link: "/sorghum",
-          sub_name: "Sourghum"
+          sub_link: "/pearl-millet",
+          sub_name: "Pearl Millet"
         }
       ]
     },
     {
-      link: "/fodderseeds",
-      name: "Fodder Seeds",
+      link: "/about",
+      name: "Fabaceae",
       sub_products: [
         {
-          sub_link: "/alfalfagrassseeds",
-          sub_name: "Alfalfa Grass Seeds"
+          sub_link: "/green-gram",
+          sub_name: "Green Gram"
         },
         {
-          sub_link: "/pipersudangrassseeds",
-          sub_name: "Piper Sudan Grass Seeds"
-        }
+          sub_link: "/black-gram",
+          sub_name: "Black Gram"
+        },
+        {
+          sub_link: "/chikpea",
+          sub_name: "Chikpea"
+        },
+        {
+          sub_link: "/pegion-pea",
+          sub_name: "Pegion Pea"
+        },
       ]
     },
     {
-      link: "/freshfruits",
-      name: "Fresh Fruits",
+      link: "/about",
+      name: "Flour",
       sub_products: [
         {
-          sub_link: "/freshpomegrants",
-          sub_name: "Fresh Pomegrants"
-        }
+          sub_link: "/wheat-flour",
+          sub_name: "Wheat Flour"
+        },
+        {
+          sub_link: "/gram-flour",
+          sub_name: "Gram Flour"
+        },
       ]
     },
     {
-      link: "/freshvegetable",
-      name: "Fresh Vegetables",
+      link: "/about",
+      name: "Splits",
       sub_products: [
         {
-          sub_link: "/freshginger",
-          sub_name: "Fresh Ginger"
-        },
-        {
-          sub_link: "/freshredonion",
-          sub_name: "Fresh Red Onion"
-        }
-      ]
-    },
-    {
-      link: "/indianspices",
-      name: "Indian Spices",
-      sub_products: [
-        {
-          sub_link: "/ajwainseeds",
-          sub_name: "Ajwain Seeds"
-        },
-        {
-          sub_link: "/aselioseeds",
-          sub_name: "Aselio Seeds"
-        },
-        {
-          sub_link: "/corianderseeds",
-          sub_name: "Coriander Seeds"
-        },
-        {
-          sub_link: "/cuminseeds",
-          sub_name: "Cumin Seeds"
-        },
-        {
-          sub_link: "/fennelseeds",
-          sub_name: "Fennel seeds"
-        },
-        {
-          sub_link: "/fenugreekseeds",
-          sub_name: "Fenugreek Seeds"
-        },
-        {
-          sub_link: "/bayleaves",
-          sub_name: "Bay Leaves"
-        },
-        {
-          sub_link: "/sennaleaves",
-          sub_name: "Senna Leaves"
-        },
-        {
-          sub_link: "/redchillipowder",
-          sub_name: "Red Chilli Powder"
-        },
-        {
-          sub_link: "/turmericpowder",
-          sub_name: "Turmeric Powder"
+          sub_link: "/chikpea-splits",
+          sub_name: "Chikpea Splits"
         }
       ]
     }
-
   ]
 
   return (

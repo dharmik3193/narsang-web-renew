@@ -40,7 +40,7 @@ export default function Footer() {
 
         // for send Email
         if (Object.keys(formErrors).length === 0 && isSubmit) {
-            emailjs.sendForm('service_h4h689h', 'template_q3kcaoh', form.current, '4ycg7NDPP1DT499TG')
+            emailjs.sendForm('service_25mfwvi', 'template_q3kcaoh', form.current, '4ycg7NDPP1DT499TG')
                 .then((result) => {
                     console.log(result.text);
                     console.log("msg send");
@@ -880,7 +880,7 @@ export default function Footer() {
                         <div className="col1">
                             <div className='t-center'>
                                 Narsang Overseas <br />
-                                Developed & Managed By Trifly Solutions Pvt.Ltd
+                                <a href='https://triflysolutions.com/' target='_blank' className='footer-credit'>Developed & Managed By Trifly Solutions Pvt.Ltd</a>
                             </div>
                         </div>
 

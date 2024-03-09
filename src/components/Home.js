@@ -264,11 +264,11 @@ export default function Home() {
           </div>
           <div className='product-text'>
             <ul className='row m-0 p-0'>
-              <li><Link to="/indianrices" >Indian Rices</Link><br /></li>
-              <li><Link to="/frshfruits" >Fresh Fruits</Link></li>
               <li><Link to="/grains" >Grains</Link><br /></li>
-              <li><Link to="/freshvegetables" >Fresh Vegetables</Link></li>
-              <li><Link to="/fodderseeds" >Fodder seeds</Link><br /></li>
+              <li><Link to="/legumes" >Legumes</Link></li>
+              <li><Link to="/fabaceae" >Fabaceae</Link><br /></li>
+              <li><Link to="/flour" >Flour</Link></li>
+              <li><Link to="/splits" >Splits</Link><br /></li>
               <li><Link to="/indianspices" >Indian Spices</Link></li>
             </ul>
           </div>
